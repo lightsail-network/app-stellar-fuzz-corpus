@@ -1,16 +1,16 @@
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 4203599684
-INFO: Loaded 1 modules   (20 inline 8-bit counters): 20 [0x55d047c18d10, 0x55d047c18d24), 
-INFO: Loaded 1 PC tables (20 PCs): 20 [0x55d047c18d28,0x55d047c18e68), 
-MERGE-OUTER: 26413 files, 0 in the initial corpus, 0 processed earlier
+INFO: Seed: 772655635
+INFO: Loaded 1 modules   (20 inline 8-bit counters): 20 [0x564cc8917d10, 0x564cc8917d24), 
+INFO: Loaded 1 PC tables (20 PCs): 20 [0x564cc8917d28,0x564cc8917e68), 
+MERGE-OUTER: 26484 files, 0 in the initial corpus, 0 processed earlier
 MERGE-OUTER: attempt 1
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 4203735662
-INFO: Loaded 1 modules   (20 inline 8-bit counters): 20 [0x559f829b4d10, 0x559f829b4d24), 
-INFO: Loaded 1 PC tables (20 PCs): 20 [0x559f829b4d28,0x559f829b4e68), 
+INFO: Seed: 772797318
+INFO: Loaded 1 modules   (20 inline 8-bit counters): 20 [0x55cc6605bd10, 0x55cc6605bd24), 
+INFO: Loaded 1 PC tables (20 PCs): 20 [0x55cc6605bd28,0x55cc6605be68), 
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
-MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge114.txt'
-MERGE-INNER: 26413 total files; 0 processed earlier; will process 26413 files now
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge115.txt'
+MERGE-INNER: 26484 total files; 0 processed earlier; will process 26484 files now
 #1	pulse  cov: 3 ft: 3 exec/s: 0 rss: 32Mb
 #2	pulse  cov: 3 ft: 3 exec/s: 0 rss: 32Mb
 #4	pulse  cov: 3 ft: 3 exec/s: 0 rss: 32Mb
@@ -26,8 +26,8 @@ MERGE-INNER: 26413 total files; 0 processed earlier; will process 26413 files no
 #4096	pulse  cov: 16 ft: 30 exec/s: 0 rss: 32Mb
 #8192	pulse  cov: 16 ft: 38 exec/s: 0 rss: 32Mb
 #16384	pulse  cov: 16 ft: 54 exec/s: 0 rss: 32Mb
-#26413	DONE   cov: 16 ft: 60 exec/s: 8804 rss: 36Mb
+#26484	DONE   cov: 16 ft: 60 exec/s: 8828 rss: 36Mb
 MERGE-OUTER: successful in 1 attempt(s)
-MERGE-OUTER: the control file has 3412679 bytes
+MERGE-OUTER: the control file has 3421972 bytes
 MERGE-OUTER: consumed 2Mb (36Mb rss) to parse the control file
-MERGE-OUTER: 21 new files with 60 new features added; 16 new coverage edges
+MERGE-OUTER: 24 new files with 60 new features added; 16 new coverage edges
